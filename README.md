@@ -27,39 +27,39 @@ http://localhost:{your_default_port}/register
 ```
 ## Api map:
 
-* You can search meal by name typing it in mealName like below (get request):
+* You can search meal by name typing it in mealName like below (GET request):
 ```
 http://localhost:{your_default_port}/meal/name/{mealName}
 ```
-* Search by category (get request):
+* Search by category (GET request):
 ```
 http://localhost:{your_default_port}/meal/category/{mealsCategory}
 ```
-* List all categories (get request):
+* List all categories (GET request):
 ```
 http://localhost:{your_default_port}/meal/category/{mealsCategory}
 ```
-* Search by first letter (get request): 
+* Search by first letter (GET request): 
 ```
 http://localhost:{your_default_port}/meal/first/{firstLetter}
 ```
-* Search by id (get request): 
+* Search by id (GET request): 
 ```
 http://localhost:{your_default_port}/meal/id/{mealId}
 ```
-* Save meal to favourite (post request):
+* Save meal to favourite (POST request):
 ```
 http://localhost:{your_default_port}/meal/id/{mealId}
 ```
-* Delete meal from favourite (delete request):
+* Delete meal from favourite (DELETE request):
 ```
 http://localhost:{your_default_port}/meal/id/{mealId}
 ```
-* List your favourite meals (get request):
+* List your favourite meals (GET request):
 ```
 http://localhost:{your_default_port}/meal/saved
 ```
-* Send an email with favourite meals (get request):
+* Send an email with favourite meals (GET request):
 ```
 http://localhost:{your_default_port}/meal/send
 ```
